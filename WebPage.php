@@ -26,7 +26,7 @@
       "@type":"WebPage",
       "name":"",
       "alternateName":"",
-      "url:"",
+      "url":"",
       "image":"",
       "description":"",
       "keywords":"",
