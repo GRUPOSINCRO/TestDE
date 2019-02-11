@@ -9,7 +9,7 @@
   <meta property="og:url" content="">
   <meta property="og:description" content="">
   <meta property="og:image" content="">
-  //<meta property="og:type" content="">
+  <meta property="og:type" content="">
 
   <meta property="fb:app_id" content="">
 
@@ -31,7 +31,7 @@
       "description":"",
       "keywords":"",
       "creator":"",
-      "material":"",
+      "material":""
     }
   </script>
 
