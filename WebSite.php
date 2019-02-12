@@ -22,36 +22,35 @@
 
 	<script type="application/ld+json">
 		{
-			"@context":"http://schema.org",
-      		"@type":"WebSite",
-      		"name":"",
-      		"alternateName":"",
-      		"url":"",
-      		"image":"",
-      		"description":"",
-      		"keywords":"",
-      		"creator":""
-		}
-	</script>
-
-	<script type="application/ld+json">
-		{
   			"@context": "http://schema.org",
   			"@graph":
   			[	
   				{
        				"@type": "WebSite",
-       				"name": "SELPI",
+       				"name": "Servicios Legales de Propiedad Intelectual e Industrial SELPI - México",
+       				"alternateName":"SELPI",
        				"url":"https://www.ipservices.com.mx/",
        				"image":"https://www.ipservices.com.mx/images/optimized/selpi3_p.webp",
        				"description":"Somos una firma de abogados especializada en derecho intelectual, rama del derecho internacional ocupada de la protección legal de marcas, avisos comerciales y diseños, obtencionde patentes, diseños industriales, modelos de utilidad, derechos de autor, secretos industriales, nombres de dominio, contratos de licencia y de franquicia.",
        				"keywords":"registro, marca",
-       				"creator":"Grupo Sincro"
-
+       				"creator": 
+       					{
+       						"@type": "organization",
+       						"name":"Grupo Sincro",
+       						"url":"http://www.gruposincro.com/", 
+       						"sameAs": 
+       							[
+       								"http://www.facebook.com/"
+       								"http://www.instagram.com/"
+       							]
+       					}
     			},
     			{
        				"@type": "LegalService",
+       				"name": "SELPI",
        				"legalName":"Asesoria Legal en Propiedad Intelectual",
+       				"image":"https://www.ipservices.com.mx/images/optimized/selpi3_p.webp",
+       				"description":"Somos una firma de abogados especializada en derecho intelectual, rama del derecho internacional ocupada de la protección legal de marcas, avisos comerciales y diseños, obtencionde patentes, diseños industriales, modelos de utilidad, derechos de autor, secretos industriales, nombres de dominio, contratos de licencia y de franquicia.",
       				"address":
       					{
         					"@type":"PostalAddress",
@@ -61,9 +60,14 @@
             				"postalCode":"55010",
             				"addressCountry":"MX"
           				},
-      				"isAccessibleForFree": false,
+      				"openingHours": 
+      					[
+    						"Mo-Fr 09:00-17:30",
+    						"Sa 09:00-12:00"
+  						]
       				"currenciesAccepted": "MXN, USD",
       				"paymentAccepted":"Efectivo, Tarjeta de Credito o Debito",
+      				"email": "info@ipservices.com.mx"
     			}
   			]
 		}
