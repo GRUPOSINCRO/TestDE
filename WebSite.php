@@ -40,7 +40,7 @@
        						"url":"http://www.gruposincro.com/", 
        						"sameAs": 
        							[
-       								"http://www.facebook.com/"
+       								"http://www.facebook.com/",
        								"http://www.instagram.com/"
        							]
        					}
@@ -62,12 +62,14 @@
           				},
       				"openingHours": 
       					[
-    						"Mo-Fr 09:00-17:30",
-    						"Sa 09:00-12:00"
-  						]
+    						  "Mo-Fr 09:00-17:30",
+    						  "Sa 09:00-12:00"
+  						  ],
+                "priceRange": "$1,320.00",
       				"currenciesAccepted": "MXN, USD",
       				"paymentAccepted":"Efectivo, Tarjeta de Credito o Debito",
-      				"email": "info@ipservices.com.mx"
+      				"email": "info@ipservices.com.mx",
+              "telephone":"552614146"
     			}
   			]
 		}
